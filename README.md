@@ -1,7 +1,7 @@
 # Python Specialization: Beginner Course
 
 <p align="center">
-  <a href="./resources/DataAnalytics.png"><img src="./resources/DataAnalytics.png" alt="DataAnalytics"></a>
+  <a href="./resources/Python_beginner.png"><img src="./resources/Python_beginner.png" alt="Python Beginner"></a>
 </p>
 <p align="center">
     <em>This course introduces the basics of Python. Develop practical programming skills through hands-on projects.</em>
