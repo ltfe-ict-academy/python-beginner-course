@@ -20,7 +20,7 @@
 ---
 
 **What you'll learn**:
-- Intro and Environment Setup
+- Introduction to the Python Ecosystem
 
 
 ## Prerequisites
@@ -28,4 +28,13 @@
 
 ## Full Course Outline
 
-### [Part 1: Intro and Environment Setup](./Part_01_Intro_and_Environment_Setup/README.md)
+### [Part 1: Introduction to the Python Ecosystem](./Part_01_Introduction_to_the_Python_Ecosystem/README.md)
+- How Does a Program Work on a Computer?
+- Introduction to Programming Languages
+- Overview of Basic Concepts
+- Introduction to Python
+- Introduction to Python Documentation and Resources for Self-Study
+
+
+## Changes
+- Version `v1.0.0`: X.11.2025 - Initial release.

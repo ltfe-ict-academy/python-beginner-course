@@ -1,6 +1,6 @@
-# Uvod v Python ekosistem
+# Introduction to the Python Ecosystem
 
-## Kako deluje program na računalniku?
+## How Does a Program Work on a Computer?
 A **program makes a computer usable.** Without a program, a computer, even the most powerful one, is nothing more than an object.
 
 It can **execute only extremely simple operations.** For example, a computer cannot understand the value of a complicated mathematical function by itself, although this isn't beyond the realms of possibility in the near future.
@@ -28,7 +28,7 @@ A **high-level language is one that is user-oriented** in that it has been desig
 
 ![High-level and low-level languages](https://d8it4huxumps7.cloudfront.net/bites/wp-content/banners/2022/11/637afe7e1cacd_difference_between_high-level_and_low-level_languages.png?d=1200x800)
 
-## Uvod v programske jezike
+## Introduction to Programming Languages
 A program written in a high-level programming language is called a **source code** (in contrast to the machine code executed by computers). Similarly, the file containing the source code is called the **source file**.
 
 ### Compilation vs. interpretation
@@ -55,19 +55,20 @@ The interpreter **reads the source code from top to bottom** and from left to ri
 4. If the line looks good, the interpreter tries to execute it.
 5. It is also possible that a significant part of the code may be executed successfully before the interpreter finds an error. This is normal behavior in this execution model.
 
-## Pregled osnovnih pojmov
+## Overview of Basic Concepts
 - Due to historical reasons, languages designed to be utilized in the interpretation manner are often called **scripting languages**, while the source programs encoded using them are called **scripts**.
-- **Virtual machine - virtualka**: A Virtual Machine (VM) is a compute resource that uses software instead of a physical computer to run programs and deploy apps. One or more virtual “guest” machines run on a physical “host” machine.
-- **Environment - okolje**: An environment is a space where you can install and run software. It is isolated from your system and other environments. You can have different versions of Python, Java, Node.js, Ruby, Go, etc. installed on your computer and switch between them with ease. You can also install different versions of the same language.
+- **Virtual machine**: A Virtual Machine (VM) is a compute resource that uses software instead of a physical computer to run programs and deploy apps. One or more virtual “guest” machines run on a physical “host” machine.
+- **Environment**: An environment is a space where you can install and run software. It is isolated from your system and other environments. You can have different versions of Python, Java, Node.js, Ruby, Go, etc. installed on your computer and switch between them with ease. You can also install different versions of the same language.
 - **Server**: A server is a computer or system that provides resources, data, services, or programs to other computers, known as clients, over a network. In theory, whenever computers share resources with client machines they are considered servers. There are many types of servers, including web servers, mail servers, and virtual servers.
-- **Library - knjižnica**: A library is a collection of functions / objects that serves one particular purpose. You could use a library in a variety of projects. (Various libraries are available for Python, Java, Node.js, Ruby, Go, etc.)
+- **Library**: A library is a collection of functions / objects that serves one particular purpose. You could use a library in a variety of projects. (Various libraries are available for Python, Java, Node.js, Ruby, Go, etc.)
 - **Framework**: A framework is a collection of libraries. The framework provides a foundation and a set of guidelines for building a system. It specifies the structure of your application. (Various frameworks are available for Python, Java, Node.js, Ruby, Go, etc.)
 - **Package manager**: A package manager is a tool that automates the process of installing, updating, and removing packages. A package is a collection of code files that are bundled together. (Various package managers are available for Python, Java, Node.js, Ruby, Go, etc.)
 - **Package**: A package is a collection of code files that are bundled together. (Various packages are available for Python, Java, Node.js, Ruby, Go, etc.)
 - **IDE**: An integrated development environment (IDE) is a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of at least a source code editor, build automation tools, and a debugger. (Various IDEs are available for Python, Java, Node.js, Ruby, Go, etc.)
 - **Syntax**: Syntax is the set of rules that defines the combinations of symbols that are considered to be correctly structured statements or expressions in that language. (Python syntax is very simple and easy to learn.)
 
-## Uvod v Python
+## Introduction to Python
+
 **Python is a widely-used, interpreted, object-oriented, and high-level programming language with dynamic semantics, used for general-purpose programming.**
 
 
@@ -148,8 +149,15 @@ Namespaces are one honking great idea -- let's do more of those!
 - Not for Mobile and Game development (although there are some frameworks like Kivy, Pygame, etc. to develop mobile and game applications in Python)
 
 While Python was steadily growing basically its whole existence, from around 2010, it started on a growth trajectory that soon enabled it to rival other top programming languages, such as Java and JavaScript.
-![Python growth](https://149351115.v2.pressablecdn.com/wp-content/uploads/2017/09/projections-1-1024x878.png)
-[Source](https://stackoverflow.blog/2017/09/06/incredible-growth-python/)
+
+![Programming, scripting, and markup languages](./images/img04.png)
+
+![Most Desired and Admired](./images/img05.png)
+
+[Source - stackoverflow.co](https://survey.stackoverflow.co/2025/technology)
+
+> After more than a decade of steady growth, Python's adoption has accelerated significantly. It saw a 7 percentage point increase from 2024 to 2025; this speaks to its ability to be the go-to language for AI, data science, and back-end development.
+
 
 ### How Python Interprets Your Program
 - [A Technical Deep Dive into Python](https://www.appdynamics.com/blog/engineering/a-technical-deep-dive-into-python/)
@@ -196,7 +204,7 @@ Depending on the Python implementation you use, the interpreter can be:
 - [Difference Between Python 2 and 3](https://www.interviewbit.com/blog/difference-between-python-2-and-3/)
 - [Python 2 vs 3: Everything You Need to Know](https://www.datacamp.com/blog/python-2-vs-3-everything-you-need-to-know)
 
-Python 2 was launched in 2000; Python 3 was launched in 2008. The issue with Python 3 was that it wasn’t backward compatible with its predecessor. So many companies still rely on Python 2—fourteen years after the introduction of Python 3—because transferring codes between Python 2 vs. 3 is a lot of effort. It could take years. 
+Python 2 was launched in 2000; Python 3 was launched in 2008. The issue with Python 3 was that it wasn’t backward compatible with its predecessor. Transferring codes between Python 2 vs. 3 is a lot of effort. It could take years. 
 
 > It took DropBox three years to migrate, despite Guido Van Rossum working for them.
 
@@ -219,9 +227,9 @@ Python uses a `major.minor.micro` nomenclature for production-ready releases. So
 - new **minor versions** are feature releases; they get released annually, from the current in-development branch;
 - new **micro versions** are bugfix releases; they get released roughly every 2 months; they are prepared in maintenance branches.
 
-![Python 3 versions](./images/img02.png)
+![Python 3 versions](./images/img06.png)
 
-## Predstavitev Python dokumentacije in virov za lastno učenje
+## Introduction to Python Documentation and Resources for Self-Study
 
 ### Python Official Resources
 - [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
