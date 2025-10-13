@@ -35,6 +35,14 @@
 - Introduction to Python
 - Introduction to Python Documentation and Resources for Self-Study
 
+### [Part 2: Environment Setup](./Part_02_Environment_Setup/README.md)
+- Overview of Command Line Interfaces
+- Windows prerequisites
+- Overview of Python Installation methods
+- Installing Python using UV
+- Python shell and running your first Python script
+- Overview of Integrated Development Environments
+- Installing and running VSCode
 
 ## Changes
 - Version `v1.0.0`: X.11.2025 - Initial release.
