@@ -52,5 +52,8 @@
 - Operators and Expressions
 - String formatting
 
+### [Part 4: Control Flow](./Part_04_Control_Flow/README.md)
+- Conditional Statements
+
 ## Changes
 - Version `v1.0.0`: X.11.2025 - Initial release.
