@@ -44,5 +44,13 @@
 - Overview of Integrated Development Environments
 - Installing and running VSCode
 
+### [Part 3: Python Basics](./Part_03_Python_Basics/README.md)
+- Basic Data Types
+- Printing to the Console
+- Variables
+- Getting values from users
+- Operators and Expressions
+- String formatting
+
 ## Changes
 - Version `v1.0.0`: X.11.2025 - Initial release.
