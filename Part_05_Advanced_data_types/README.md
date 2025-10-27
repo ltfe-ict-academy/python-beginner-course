@@ -87,7 +87,6 @@ for loop_variable in collection:
 
 ## Data Manipulation Examples
 
-- Copying Data Structures (Deep vs Shallow)
 - Sorting Data Structures
 - Append vs. Concatenate
 - Flattening Nested Structures
@@ -102,3 +101,14 @@ for loop_variable in collection:
 Python’s mutable objects, such as lists and dictionaries, allow you to change their value or data directly without affecting their identity. In contrast, immutable objects, like tuples and strings, don’t allow in-place modifications. Instead, you’ll need to create new objects of the same type with different values.
 - **Immutable Types**: int, float, bool, str, tuple, bytes
 - **Mutable Types**: list, dict, set
+
+### Copying Data Structures (Deep vs Shallow)
+- [How to Copy Objects in Python: Shallow vs Deep Copy Explained](https://realpython.com/python-copy/)
+
+Copying an object means creating its exact duplicate in memory. While there are many good reasons for doing so, at the end of the day, it allows you to modify the cloned objects independently of each other.
+
+Python provides two primary ways to copy an object:
+- **Shallow copy**
+- **Deep copy**
+
+A shallow copy creates a new object but doesn’t fully duplicate its contents, so any nested objects inside are still shared between the original and the copy. In contrast, a deep copy recursively duplicates everything, ensuring that even deeply nested objects are cloned, effectively breaking all links to the original structure.
