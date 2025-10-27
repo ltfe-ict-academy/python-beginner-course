@@ -13,7 +13,7 @@
     },
     "ruff.importStrategy": "fromEnvironment",
     "ruff.lint.select": ["ALL"],
-    "ruff.lineLength": 180,
+    "ruff.lineLength": 100,
     "ruff.lint.ignore": ["S105", "D100", "T201"],
     "ruff.exclude": ["**/tests/**"],
     "python.testing.pytestArgs": [
