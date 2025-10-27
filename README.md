@@ -54,6 +54,17 @@
 
 ### [Part 4: Control Flow](./Part_04_Control_Flow/README.md)
 - Conditional Statements
+- While loops
+
+### [Part 5: Advanced data types](./Part_05_Advanced_data_types/README.md)
+- Lists
+- Tuples
+- Sets
+- Dictionaries
+- Strings Advanced
+- Iterators and Iterables
+- For loops
+- Data Manipulation Examples
 
 ## Changes
 - Version `v1.0.0`: X.11.2025 - Initial release.
