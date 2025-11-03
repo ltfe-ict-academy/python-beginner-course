@@ -7,7 +7,7 @@ The list class is a fundamental built-in data type in Python. It has an impressi
 
 Some of the more relevant characteristics of list objects include being:
 - **Ordered**: They contain elements or items that are sequentially arranged according to their specific insertion order.
-- ***Zero-based**: They allow you to access their elements by indices that start from zero.
+- **Zero-based**: They allow you to access their elements by indices that start from zero.
 - **Mutable**: They support in-place mutations or changes to their contained elements.
 - **Heterogeneous**: They can store objects of different types.
 - **Growable and dynamic**: They can grow or shrink dynamically, which means that they support the addition, insertion, and removal of elements.
