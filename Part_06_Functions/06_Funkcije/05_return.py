@@ -35,15 +35,15 @@ data = {
 # [43033, 50768369805]
 
 
-def funkcija(input_dictionary):
-    temp_list = []
-    for key in input_dictionary:
-        temp_list.append(max(input_dictionary[key]))
-    return temp_list
+# def funkcija(input_dictionary):
+#     temp_list = []
+#     for key in input_dictionary:
+#         temp_list.append(max(input_dictionary[key]))
+#     return temp_list
 
 
-x = funkcija(data)
-print(x)
+# x = funkcija(data)
+# print(x)
 
 
 def hello(name):

@@ -66,5 +66,13 @@
 - For loops
 - Data Manipulation Examples
 
+### [Part 6: Functions](./Part_06_Functions/README.md)
+- Defining and Calling Functions
+- Optional Arguments
+- Built-in Functions
+- Scopes and Namespaces
+- Type Checking
+- Lambda Functions
+
 ## Changes
 - Version `v1.0.0`: X.11.2025 - Initial release.
