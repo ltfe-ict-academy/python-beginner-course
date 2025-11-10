@@ -26,3 +26,26 @@ all_expenses = {
     "stanovanje": expense3,
 }
 print(all_expenses["stanovanje"]["price"])
+
+# Getting Individual Keys: .get(key, default=None)
+expense1 = {"name": "kava", "category": "hrana", "price": 2.5}
+# if "vat" in expense1:
+#     vat = expense1["vat"]
+# else:
+#     vat = 0
+vat = expense1.get("vat", 0)
+print(f"Vat for the items is {vat}")
+
+# Retrieving All the Values: .values()
+print(expense1.values())
+# Accessing All the Keys: .keys()
+print(expense1.keys())
+# Getting All the Items or Key-Value Pairs: .items()
+print(expense1.items())
+# Updating a value
+expense1["price"] = 35
+print(expense1)
+# Removing Keys: .pop(key[, default])
+val = expense1.pop("category")
+print(expense1, val)
+expense1.pop("category", None)

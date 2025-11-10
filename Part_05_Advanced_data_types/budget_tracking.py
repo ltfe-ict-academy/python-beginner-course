@@ -14,12 +14,14 @@ while True:
         print(f"Please enter a valid category: {categories}")
         continue
     expense_price = float(input("-> Price: "))
-    all_expenses.append(expense_price)
+    new_expense = {"name": expense_name, "category": expense_category, "price": expense_price}
+    all_expenses.append(new_expense)
     print("\n ############# \n")
     if input("Enter another one? [y]").lower() != "y":
         break
 
 print(f"All expenses: {all_expenses}")
-total_expenses = sum(all_expenses)
+prices = [expense["price"] for expense in all_expenses]
+total_expenses = sum(prices)
 print(f"Total expenses: {round(total_expenses, 2)}€")
 print(f"Budget exceeded? {total_expenses > total_budget}")
