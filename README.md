@@ -79,5 +79,8 @@
 - Preventing or Handling Errors
 - Raising Exceptions
 
+### [Part 8: Object Oriented Programming](./Part_08_Object_Oriented_Programming/README.md)
+- Introduction to OOP
+
 ## Changes
 - Version `v1.0.0`: X.11.2025 - Initial release.
