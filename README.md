@@ -74,5 +74,10 @@
 - Type Checking
 - Lambda Functions
 
+### [Part 7: Error Handling](./Part_07_Error_Handling/README.md)
+- Python Exceptions
+- Preventing or Handling Errors
+- Raising Exceptions
+
 ## Changes
 - Version `v1.0.0`: X.11.2025 - Initial release.
