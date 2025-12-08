@@ -12,6 +12,11 @@ def read_logs(path: Path) -> list[str]:
 
 def show_logs_level_summary(lines: list[str]) -> None:
     """Show logs level summary."""
+    # Initialize counters for each log level
+    # Split each line and check the log level
+    # Create a summary dictionary
+    # Print the summary
+    # Example log levels: INFO, WARNING, ERROR, DEBUG
 
 
 def main() -> None:
