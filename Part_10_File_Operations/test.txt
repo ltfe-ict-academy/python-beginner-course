@@ -10,3 +10,5 @@ To je nova vrstica 1
 to je nova vrstica 2
 To je nova vrstica 1
 to je nova vrstica 2
+To je nova vrstica 1
+to je nova vrstica 2
