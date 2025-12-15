@@ -5,7 +5,7 @@ log_file_path = Path(__file__).parent / "server.txt"
 
 def read_logs(path: Path) -> list[str]:
     """Read all logs into a list of strings."""
-    with open(path, encoding="utf-8") as log_file:
+    with open(path, encoding="utf-8") as log_file:  # noqa: PTH123
         all_lines = log_file.readlines()
     return [line.strip() for line in all_lines if line.strip()]
 

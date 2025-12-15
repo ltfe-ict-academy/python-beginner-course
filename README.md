@@ -82,5 +82,15 @@
 ### [Part 8: Object Oriented Programming](./Part_08_Object_Oriented_Programming/README.md)
 - Introduction to OOP
 
+### [Part 9: Modular Programming](./Part_09_Modular_Programming/README.md)
+- Python Modules and importing
+
+### [Part 10: File Operations](./Part_10_File_Operations/README.md)
+- Reading and Writing Files
+- Working With Files
+
+### [Part 11: External Libraries](./Part_11_External_Libraries/README.md)
+- Installing External Libraries
+
 ## Changes
 - Version `v1.0.0`: X.11.2025 - Initial release.
